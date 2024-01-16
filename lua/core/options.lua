@@ -8,6 +8,9 @@ vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
 
+vim.cmd('set smartcase')
+vim.cmd('set ignorecase')
+
 -- use spaces for tabs and whatnot
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2

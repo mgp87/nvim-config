@@ -1,5 +1,5 @@
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "tsserver", "pyright", "sqls", "spectral", "solang", "rust_analyzer", "ocamllsp", "jsonls", "htmx", "html", "cssls", "apex_ls", "zls", "gopls", "elixirls", "dockerls" }
+  ensure_installed = { "lua_ls", "tsserver", "pyright", "sqls", "spectral", "solang", "rust_analyzer", "ocamllsp", "jsonls", "htmx", "html", "cssls", "apex_ls", "zls", "gopls", "bashls", "clangd", "docker_compose_language_service", "dockerls", "eslint", "graphql", "marksman","solang", "taplo", "templ", "yamlls", "elixirls", "dockerls" }
 })
 
 local lspconfig = require('lspconfig')
